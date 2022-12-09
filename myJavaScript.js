@@ -34,7 +34,7 @@ email = document.getElementById("info");
 
 email.addEventListener("click", function (){
 	if(email.innerHTML == "<strong>Contact</strong>"){
-		email.innerHTML = "<strong>krishrajchal@gmail.com</strong>";
+		email.innerHTML = "<strong>krish@altk.xyz</strong>";
 		if(localStorage.color){
 			triggerColor(email);
 		}
